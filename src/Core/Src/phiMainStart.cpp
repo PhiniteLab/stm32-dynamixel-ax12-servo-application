@@ -30,7 +30,6 @@ int main(void) {
 	MX_UART4_Init();
 
 
-
 	servo_motor_ct.set_operation_range_ccw(0x03, 300);
 	HAL_Delay(10);
 	servo_motor_ct.set_operation_range_cw(0x03, 0);
@@ -41,10 +40,10 @@ int main(void) {
 	while (1) {
 
 		servo_motor_ct.set_led(0x03, 0x01);
-		servo_motor_ct.set_position_and_velcoctiy(0x03, 150, 270);
+		servo_motor_ct.set_position_and_velocity(0x03, 150, 270);
 		HAL_Delay(1000);
 		servo_motor_ct.set_led(0x03, 0x00);
-		servo_motor_ct.set_position_and_velcoctiy(0x03, 0, 270);
+		servo_motor_ct.set_position_and_velocity(0x03, 0, 270);
 		HAL_Delay(1000);
 
 

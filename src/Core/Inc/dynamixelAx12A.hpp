@@ -333,7 +333,7 @@ public:
 	}
 
 
-	void set_position_and_velcoctiy(uint8_t ID, float position_deg,
+	void set_position_and_velocity(uint8_t ID, float position_deg,
 			float velocity_deg_per_s) {
 
 		uint16_t pos = this->calculate_pos(position_deg); // goal position calculate
@@ -476,12 +476,12 @@ public:
 
 	uint32_t value_to_baudrate(uint8_t baudrate_adr_value) {
 
-		return ((uint32_t) (2000000 / (baudrate_adr_value + 1)));
+		return ((uint32_t)(2000000 / (baudrate_adr_value + 1)));
 	}
 
 	uint8_t baudrate_to_value(uint32_t baudrate_in_BPS) {
 
-		return ((uint8_t) ((2000000 / baudrate_in_BPS) - 1));
+		return ((uint8_t)((2000000 / baudrate_in_BPS) - 1));
 	}
 
 	uint16_t calculate_pos(float position_in_degree) {
@@ -496,7 +496,7 @@ public:
 
 		float rpm = 0.16667 * velocity_deg_per_s;
 
-		return (uint16_t(rpm/0.111));
+		return ((uint16_t)(rpm/0.111));
 
 	}
 
@@ -513,7 +513,7 @@ public:
 			velocity_percent = 0;
 		}
 
-		return (uint16_t(velocity_percent/0.1));
+		return ((uint16_t)(velocity_percent/0.1));
 
 	}
 
