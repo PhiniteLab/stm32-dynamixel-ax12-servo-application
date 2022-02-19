@@ -57,7 +57,7 @@ On the STM side, sending data with interrupt via the UART4 port. Baudrate is set
 The general system shown in the image:
 
 <p align="center">
-  <img src="images/SYSTEm.PNG">
+  <img src="images/SYSTEM.PNG">
 </p>
 
 
