@@ -1,0 +1,18 @@
+dynamixelAx12A.hpp:148:2:dynamixel_ax_12A_parameters::dynamixel_ax_12A_parameters(UART_HandleTypeDef*)	16	static
+dynamixelAx12A.hpp:232:7:void dynamixel_ax_12A_parameters::set_operation_range_ccw(uint8_t, float)	40	static
+dynamixelAx12A.hpp:262:7:void dynamixel_ax_12A_parameters::set_operation_range_cw(uint8_t, float)	40	static
+dynamixelAx12A.hpp:336:7:void dynamixel_ax_12A_parameters::set_position_and_velcoctiy(uint8_t, float, float)	40	static
+dynamixelAx12A.hpp:403:7:void dynamixel_ax_12A_parameters::set_led(uint8_t, uint8_t)	24	static
+dynamixelAx12A.hpp:467:7:void dynamixel_ax_12A_parameters::polling_msg(uint8_t*, uint16_t)	24	static
+dynamixelAx12A.hpp:487:11:uint16_t dynamixel_ax_12A_parameters::calculate_pos(float)	16	static
+dynamixelAx12A.hpp:495:11:uint16_t dynamixel_ax_12A_parameters::calculate_vel(float)	24	static
+dynamixelAx12A.hpp:520:7:void dynamixel_ax_12A_parameters::calculate_checksum(uint8_t*, uint8_t)	32	static
+phiMainStart.cpp:21:5:int main()	8	static
+phiMainStart.cpp:59:6:void SystemClock_Config()	216	static
+phiMainStart.cpp:111:13:void MX_UART4_Init()	8	static
+phiMainStart.cpp:144:13:void MX_USART3_UART_Init()	8	static
+phiMainStart.cpp:175:13:void MX_DMA_Init()	16	static
+phiMainStart.cpp:195:13:void MX_GPIO_Init()	56	static
+phiMainStart.cpp:260:6:void Error_Handler()	4	static,ignoring_inline_asm
+phiMainStart.cpp:267:1:void __static_initialization_and_destruction_0(int, int)	16	static
+phiMainStart.cpp:267:1:cpp)	8	static
